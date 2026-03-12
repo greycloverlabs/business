@@ -44,7 +44,7 @@ function main() {
 		if (!slug) return;
 
 		const htmlPath = resolvePath(`src/content/pages/${slug}.html`);
-		const lessPath = resolvePath(`src/assets/less/${slug}.less`);
+		const scssPath = resolvePath(`src/assets/sass/${slug}.scss`);
 
 		if (fs.existsSync(htmlPath)) {
 			console.log(`Skipped ${slug}.html — already exists`);
@@ -52,9 +52,9 @@ function main() {
 		}
 
 		fs.writeFileSync(htmlPath, template);
-		fs.writeFileSync(lessPath, "");
+		fs.writeFileSync(scssPath, "");
 
-		console.log(`Created ${htmlPath} and ${lessPath}`);
+		console.log(`Created ${htmlPath} and ${scssPath}`);
 	});
 }
 

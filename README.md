@@ -135,7 +135,7 @@ npm run create-page -- "About, Services, Contact"
 For each name provided, the script will:
 
 - Create `src/content/pages/{slug}.html` pre-filled with `_template.txt`
-- Create `src/assets/less/{slug}.less` ready for your page-specific styles
+- Create `src/assets/scss/{slug}.scss` ready for your page-specific styles
 - Set the page title to `Page Name | Client | City, State` automatically using data from `_data/client.js`
 - Set the permalink to `/{slug}/`
 
