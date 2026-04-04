@@ -38,6 +38,10 @@
 		--bodyFont: "Roboto", Arial, sans-serif;
 	}
 
+	html {
+		scroll-behavior: smooth;
+	}
+
 	html,
 	body {
 		margin: 0;
