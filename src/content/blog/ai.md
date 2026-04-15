@@ -3,7 +3,7 @@ title: Is Using AI a Good Thing? Benefits, Risks, and How to Stay in Control
 url: is ai really worth
 description: Is using AI actually a good thing? Explore the benefits, risks, and how to become AI-enabled without losing critical thinking or independence.
 author: Gagan Mahla
-date: 2023-06-08T15:28:08.486Z
+date:2023-06-08T15:28:08.486Z
 tags:
     - post
     - featured
