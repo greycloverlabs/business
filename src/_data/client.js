@@ -4,12 +4,12 @@ module.exports = {
     phoneForTel: "97792-00653",
     phoneFormatted: "(+91) 97792-00653",
     address: {
-		lineOne: "flatno:EE8,CasaHomes,kharar-landran road",
-        lineTwo: "kharar,Mohali,Punjab",
+		lineOne: "EE8, Casa Homes",
+        lineTwo: "Kharar-Landran Road",
         city: "Mohali",
         state: "Punjab",
         zip: "140307",
-        country: "IN",
+        country: "India",
     },
     socials: {
         facebook: "https://www.facebook.com/",
