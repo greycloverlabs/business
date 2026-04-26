@@ -932,7 +932,7 @@
 			text-align: center;
 			max-width: calc(700 / 16 * 1rem);
 			margin: 0 auto calc(12 / 16 * 1rem);
-			color: var(--bodyTextColorWhite);
+			// color: var(--bodyTextColorWhite);
 			position: relative;
 		}
 
@@ -947,7 +947,7 @@
 			font-size: clamp(0.875rem, 1.5vw, 1rem);
 			line-height: 1.2em;
 			text-decoration: none;
-			color: var(--bodyTextColorWhite);
+			// color: var(--bodyTextColorWhite);
 			position: relative;
 			display: flex;
 			justify-content: center;
@@ -1012,7 +1012,6 @@
 		}
 	}
 }
-
 /*-- -------------------------- -->
 <---            CTA             -->
 <--- -------------------------- -*/
