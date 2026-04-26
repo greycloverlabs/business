@@ -22,36 +22,36 @@
             <div class="cs-ul-wrapper" id="cs-ul-wrapper" inert>
                 <ul id="cs-expanded" class="cs-ul">
                     <li class="cs-li">
-                        <a href="#hero-143" class="cs-li-link {% if page.url == "/" %} cs-active {% endif %}" {% if page.url == "/" %} aria-current="page" {% endif %}>
+                        <a href="/#hero" class="cs-li-link {% if page.url == "/" %} cs-active {% endif %}" {% if page.url == "/" %} aria-current="page" {% endif %}>
                             Home
                         </a>
                     </li>
                     <li class="cs-li">
-                        <a href="#RPsbsr-313" class="cs-li-link {% if page.url == "/about/" %} cs-active {% endif %}" {% if page.url == "/about/" %} aria-current="page" {% endif %}>
+                        <a href="/#about" class="cs-li-link {% if page.url == "/about/" %} cs-active {% endif %}" {% if page.url == "/about/" %} aria-current="page" {% endif %}>
                             About
                         </a>
                     </li>
                     <!-- Note: When copying this dropdown, update the id attribute with an appropriate name (e.g., "services-dropdown-toggle", "products-dropdown-toggle") and ensure the aria-labelledby attribute on the ul matches the button's id -->
                     <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
                     <li class="cs-li cs-dropdown">
-                        <a href="/blog/" class="cs-li-link cs-dropdown-toggle {% if page.url == "/project-one/" or page.url == "/project-two/" %} cs-active {% endif %}" aria-haspopup="menu" aria-expanded="false" id="projects-dropdown-toggle">
+                        <a href="/#service" class="cs-li-link cs-dropdown-toggle {% if page.url == "/project-one/" or page.url == "/project-two/" %} cs-active {% endif %}" aria-haspopup="menu" aria-expanded="false" id="projects-dropdown-toggle">
                             Services
                             <img class="cs-drop-icon" src="/assets/svgs/dropdown.svg" alt="" width="15" height="15" decoding="async" aria-hidden="true">
                         </a>
                         <ul class="cs-drop-ul" aria-labelledby="projects-dropdown-toggle">
                             <li class="cs-drop-li">
-                                <a href="/web-dev/" class="cs-li-link cs-drop-link">Agentic Systems</a>
+                                <a href="/agentic-systems/" class="cs-li-link cs-drop-link">Agentic Systems</a>
                             </li>
                             <li class="cs-drop-li">
-                                <a href="/agent-dev/" class="cs-li-link cs-drop-link">Business Operations</a>
+                                <a href="/digital-presence/" class="cs-li-link cs-drop-link">Digital Presence</a>
                             </li>
 							<li class="cs-drop-li">
-                                <a href="/web-dev/" class="cs-li-link cs-drop-link">Digital Infrastructure</a>
+                                <a href="/business-infrastructure/" class="cs-li-link cs-drop-link">Digital Infrastructure</a>
                             </li>
                         </ul>
                     </li>
                     <li class="cs-li">
-                        <a href="/blog/" class="cs-li-link {% if page.url == "/reviews/" %} cs-active {% endif %}" {% if page.url == "/reviews/" %} aria-current="page" {% endif %}>
+                        <a href="/blogs/" class="cs-li-link {% if page.url == "/reviews/" %} cs-active {% endif %}" {% if page.url == "/reviews/" %} aria-current="page" {% endif %}>
                             Blogs
                         </a>
                     </li>

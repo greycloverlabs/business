@@ -12,7 +12,7 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
     #RPsbs-313,
-    #RPsbsr-313 {
+    #about {
         padding: var(--sectionPadding);
 
         .cs-container {
@@ -134,7 +134,7 @@
             bottom: 0;
         }
     }
-    #RPsbsr-313 {
+    #about {
         .csRPsbr-313-picture {
             img {
                 position: absolute;
@@ -151,7 +151,7 @@
 /* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
     #RPsbs-313,
-    #RPsbsr-313 {
+    #about {
         .cs-container {
             flex-flow: row;
             justify-content: space-between;
@@ -175,7 +175,7 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-    #RPsbsr-313 {
+    #about {
         background-color: #f7f7f7;
         .cs-picture1 {
             left: auto;
@@ -195,7 +195,7 @@
 
 /* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
-    #RPsbsr-313 {
+    #about {
         .cs-image-group {
             /* keeps it to the left in the 1nd position */
             // this is defautl behavior 
@@ -217,7 +217,7 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-    #pricing-1387 {
+    #service {
         padding: var(--sectionPadding);
         /* clips the cs-floater and prevents it from causing overflow issues */
         overflow: hidden;
@@ -628,7 +628,7 @@
 
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-    #pricing-1387 {
+    #service {
         .cs-container {
             max-width: calc(1280 / 16 * 1rem);
 
@@ -642,7 +642,7 @@
 
 /* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
-    #pricing-1387 {
+    #service {
         .cs-container {
             align-items: center;
             justify-content: space-between;

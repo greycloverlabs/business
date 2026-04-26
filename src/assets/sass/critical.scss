@@ -4,7 +4,7 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-    #hero-1946 {
+    #hero {
         padding: var(--sectionPadding);
         /* 160px - 200px */
         padding-top: clamp(10rem, 20vw, 12.5rem);
@@ -174,7 +174,7 @@
 
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-    #hero-1946 {
+    #hero {
         .cs-text {
             font-size: calc(20/16 * 1rem);
         }
@@ -190,7 +190,7 @@
 
 /* Small Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
-    #hero-1946 {
+    #hero {
         .cs-content {
             display: flex;
             flex-direction: column;
@@ -208,7 +208,7 @@
 
 /* Large Desktop 1300px */
 @media only screen and (min-width: 81.25rem) {
-    #hero-1946 {
+    #hero {
         .cs-title {
             margin: 0;
         }
